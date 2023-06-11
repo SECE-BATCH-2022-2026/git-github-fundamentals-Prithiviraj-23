@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+body{
+    background-color:rgba(0, 0,0,0.9);
+}
+.body{
+    position: relative;
+}
+.full{   
+    width: 50%;
+    background-color: rgba(8, 8, 8,0.4);
+    display: flex;
+    flex-direction:row; 
+}
+
+.full{
+    position: absolute;
+    left:18%;
+    margin-top:3%;
+}
+.left{
+    
+    color: white;
+    font-family: sans-serif;
+    background-color:rgba(186, 186, 186, 0.5);
+    flex-basis:65%;
+    flex-grow:0;
+    flex-shrink: 0;
+
+}
+.right{
+    background-color: blanchedalmond;
+    flex-basis: 40%;
+    flex-grow:0;
+    flex-shrink: 0;
+    
+}
+.left{
+    width:60%;
+}
+.left{
+    
+    padding-left:7%;
+    padding-right:7%;
+}
+
+.name,.job,.Project,.Education{
+margin-top:3rem;
+color:aliceblue;
+
+}
+.name{
+    font-family: serif;
+    color: white;
+    letter-spacing:2px;
+}
+
+.jop p{
+    line-height:70px;
+}
+.left .name{
+    color: white;
+}
+.line {
+    line-height:1.5rem;
+}
+#line{
+    line-height:25px;
+}
+.right{ 
+    background-color: rgba(48, 47, 47,0.9);
+    color: white;
+    padding-left:9%;
+    
+    letter-spacing: 1.5px;
+}
+.full{
+    position: relative;
+}
+#image{
+    z-index: 2;
+    width: 253px;
+    height: 200px;
+    position: absolute;
+    top: 16%;
+    right: 4px;
+    
+}
+img{
+    width: 253px;
+    height: 200px;
+    border-radius: 55%;
+}
+#pos{
+    border-top-left-radius:9px;
+    border-top-right-radius: 9px;
+    z-index: 1;
+    background-color: aliceblue;
+    width: 251px;
+    height: 700px;
+    position:absolute;
+    bottom: 20px;
+    right: 5px;
+    padding-top:20%;
+    padding-left:20px;
+}
+#pos li{
+    line-height:2rem;
+    letter-spacing:1.2px;
+}
+ a{
+    text-decoration: none;
+    color:white;
+}
+li img{
+   width: 50px;
+   height:50px;
+}
+.code li { 
+    display: inline;
+    list-style:none;
+}
